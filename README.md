@@ -3,7 +3,7 @@
 Repository created by **Lucía Pascual López-Roca** for the _Web Application Deployment_ module.  
 This project is part of the learning activities for practicing **Git** and **GitHub**, focusing on version control, local and remote synchronization, branching, and conflict resolution.
 
-![Project Preview](./images/captura-proyecto.png)
+![Project Preview](./captura-proyecto.png)
 
 ---
 
