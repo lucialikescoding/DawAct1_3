@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>index</title>
-</head>
-<body>
-    <h1>Módulos de Desarrollo de Aplicaciones web</h1>
-    <ul>
-        <li>Despliegue de Aplicaciones Web</li>
-	<li>Diseño de Interfaz Web</li>
-    <li>Desarrollo web en entorno servidor</li>
-    <li>Desarrollo web en entorno cliente</li>
-    </ul>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+  </head>
+  <body>
+    <div id="header">
+      <p>Mi lista de la compra:</p>
+      <img src="captura.png" alt="comida">
+    </div>
+    <div class="tabla"></div>
+    <script>
+      let pregunta1 = prompt("dime cuantas cosas quieres escribir");
+
+      let caja = document.getElementsByClassName("tabla")[0];
+      let lista = document.createElement("ul");
+      caja.appendChild(lista);
+
+      for (let i = 1; i <= parseInt(pregunta1); i++) {
+        let pregunta2 = prompt("¿Que quieres añadir a tu lista?");
+        let elementos = document.createElement("li");
+        let texto = document.createTextNode(pregunta2);
+        lista.appendChild(elementos);
+        elementos.appendChild(texto);
+      }
+    </script>
+  </body>
 </html>

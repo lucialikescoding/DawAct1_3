@@ -1,0 +1,27 @@
+#header {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 200%;
+    background-color: #b2abeb;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.tabla {
+    
+    margin-left: 500px;
+    margin-right: 500px;
+}
+   li {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    padding-bottom: 20px;
+   }
+   ul li{
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+   }
+
+   li:nth-child(even) {background-color: #ffb4c4 ;}
+   li:nth-child(odd) {background-color: #b0f5e5;}
